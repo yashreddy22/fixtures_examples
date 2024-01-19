@@ -1,3 +1,4 @@
+#Example 1
 import pytest
 
 @pytest.fixture
@@ -9,7 +10,7 @@ def test_add(add):
 	assert num==20
 
 
-
+#Example 2
 import pytest
 
 @pytest.fixture
